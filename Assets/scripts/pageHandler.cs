@@ -19,7 +19,9 @@ public class pageHandler : MonoBehaviour
         for (int i = 2;i< pages.childCount; i++)
         {
             pages.GetChild(i).gameObject.SetActive(false);
-        }     
+        }  
+        leftPageNum.text = (currentPage+1).ToString();   
+        rightPageNum.text = (currentPage+2).ToString();
     }
 
     public void nextPage()
@@ -42,7 +44,32 @@ public class pageHandler : MonoBehaviour
         // show new pair
         pages.GetChild(currentPage).gameObject.SetActive(true);
         pages.GetChild(currentPage +1 ).gameObject.SetActive(true);
+        leftPageNum.text = (currentPage + 1).ToString();
+        rightPageNum.text = (currentPage + 2).ToString();
 
 
+    }
+
+    public void previousPage()
+    {
+        
+
+        if (currentPage == 0)
+        {
+            return;
+        }
+
+
+        // hide previous pair
+        pages.GetChild(currentPage).gameObject.SetActive(false);
+        pages.GetChild(currentPage + 1).gameObject.SetActive(false);
+
+        currentPage -= 2;
+
+        // show new pair
+        pages.GetChild(currentPage).gameObject.SetActive(true);
+        pages.GetChild(currentPage + 1).gameObject.SetActive(true);
+        leftPageNum.text = (currentPage + 1).ToString();
+        rightPageNum.text = (currentPage + 2).ToString();
     }
 }
