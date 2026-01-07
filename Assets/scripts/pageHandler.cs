@@ -24,18 +24,25 @@ public class pageHandler : MonoBehaviour
 
     public void nextPage()
     {
-        pages.GetChild(currentPage).gameObject.SetActive(false);
-        pages.GetChild(currentPage+1).gameObject.SetActive(false);
-        currentPage++;
-        if(currentPage <= pages.childCount - 1)
-        {
-            pages.GetChild(currentPage+2).gameObject.SetActive(true);
-            pages.GetChild(currentPage + 3).gameObject.SetActive(true);
-        }
-        else
+
+        int maxStart = pages.childCount - 2; // last valid pair start
+
+        if (currentPage >= maxStart)
         {
             return;
         }
-        
+            
+
+        // hide previous pair
+        pages.GetChild(currentPage).gameObject.SetActive(false);
+        pages.GetChild(currentPage + 1).gameObject.SetActive(false);
+
+        currentPage+=2;
+
+        // show new pair
+        pages.GetChild(currentPage).gameObject.SetActive(true);
+        pages.GetChild(currentPage +1 ).gameObject.SetActive(true);
+
+
     }
 }
