@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class bookGrabber : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnTriggerStay2D(Collider2D other)
     {
-        
+        if (other.CompareTag("openBook"))
+        {
+            Debug.Log("collided");
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        
+        if (other.CompareTag("closedBook"))
+        {
+            Debug.Log("left");
+        }
     }
 }
