@@ -5,18 +5,19 @@ public class TableOfContents : MonoBehaviour
     [Header("The Specific page to link to")]
     public Transform SpecificPage;
     [Header("Page Transform")]
-    public Transform pages;
+    //public Transform pages;
     [Header("PageHandler")]
-    public pageHandler pageHandler;
-    
+    pageHandler pageHandler;
+
 
     public void onClick()
     {
+        pageHandler = GetComponentInParent<pageHandler>();
         int index = SpecificPage.GetSiblingIndex();
-        pages.GetChild(0).gameObject.SetActive(false);
-        pages.GetChild(1).gameObject.SetActive(false);
-        pages.GetChild(index).gameObject.SetActive(true);
-        pages.GetChild(index + 1).gameObject.SetActive(true);
+        pageHandler.pages.GetChild(0).gameObject.SetActive(false);
+        pageHandler.pages.GetChild(1).gameObject.SetActive(false);
+        pageHandler.pages.GetChild(index).gameObject.SetActive(true);
+        pageHandler.pages.GetChild(index + 1).gameObject.SetActive(true);
         pageHandler.leftPageNum.text = (index + 1).ToString();
         pageHandler.rightPageNum.text = (index + 2).ToString();
 
