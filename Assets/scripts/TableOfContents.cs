@@ -19,12 +19,8 @@ public class TableOfContents : MonoBehaviour
         {
             index--;
         }
-        pageHandler.pages.GetChild(0).gameObject.SetActive(false);
-        pageHandler.pages.GetChild(1).gameObject.SetActive(false);
-        pageHandler.pages.GetChild(index).gameObject.SetActive(true);
-        pageHandler.pages.GetChild(index + 1).gameObject.SetActive(true);
-        pageHandler.leftPageNum.text = (index + 1).ToString();
-        pageHandler.rightPageNum.text = (index + 2).ToString();
+        pageHandler.hidePage();
+        pageHandler.goToPage(index);
 
     }
 }

@@ -23,15 +23,14 @@ public class pageHandler : MonoBehaviour
         leftPageNum.text = (currentPage+1).ToString();   
         rightPageNum.text = (currentPage+2).ToString();
     }
-    public void goToPage()
+    public void goToPage(int index)
     {
         
-        hidePage();
         // show new pair
-        pages.GetChild(currentPage).gameObject.SetActive(true);
-        pages.GetChild(currentPage + 1).gameObject.SetActive(true);
-        leftPageNum.text = (currentPage + 1).ToString();
-        rightPageNum.text = (currentPage + 2).ToString();
+        pages.GetChild(index).gameObject.SetActive(true);
+        pages.GetChild(index + 1).gameObject.SetActive(true);
+        leftPageNum.text = (index + 1).ToString();
+        rightPageNum.text = (index + 2).ToString();
 
     }
     public void hidePage()
@@ -51,7 +50,7 @@ public class pageHandler : MonoBehaviour
         }
         hidePage();
         currentPage+=2;
-        goToPage();
+        goToPage(currentPage);
     }
 
     public void previousPage()
@@ -66,7 +65,7 @@ public class pageHandler : MonoBehaviour
 
         currentPage -= 2;
 
-        goToPage();
+        goToPage(currentPage);
     }
     
 }
