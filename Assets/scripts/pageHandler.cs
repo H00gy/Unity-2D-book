@@ -12,7 +12,7 @@ public class pageHandler : MonoBehaviour
 
     static int currentPage = 0;
 
-    void Start() // keeps 
+    void Start() // makes sure the first time the book is open it opens on the first page
     {
         
         for (int i = 2;i< pages.childCount; i++)
@@ -24,7 +24,7 @@ public class pageHandler : MonoBehaviour
     }
     public void goToPage(int index)
     {
-        currentPage = index; // keeps 
+        currentPage = index; // Very Important, keeps the currentPage consistent 
         // show new pair
         pages.GetChild(index).gameObject.SetActive(true);
         pages.GetChild(index + 1).gameObject.SetActive(true);
@@ -38,7 +38,7 @@ public class pageHandler : MonoBehaviour
         pages.GetChild(currentPage).gameObject.SetActive(false);
         pages.GetChild(currentPage + 1).gameObject.SetActive(false);
     }
-    public void nextPage()
+    public void nextPage() // next page
     {
 
         int maxStart = pages.childCount - 2; // last valid pair start
@@ -52,7 +52,7 @@ public class pageHandler : MonoBehaviour
         goToPage(currentPage);
     }
 
-    public void previousPage()
+    public void previousPage() // previous page
     {
 
         if (currentPage == 0)
