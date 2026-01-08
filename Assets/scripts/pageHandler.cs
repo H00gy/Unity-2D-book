@@ -10,10 +10,9 @@ public class pageHandler : MonoBehaviour
     public TMP_Text leftPageNum;
     public TMP_Text rightPageNum;
 
-   // static int pageNum = 1;
     static int currentPage = 0;
 
-    void Start()
+    void Start() // keeps 
     {
         
         for (int i = 2;i< pages.childCount; i++)
@@ -25,7 +24,7 @@ public class pageHandler : MonoBehaviour
     }
     public void goToPage(int index)
     {
-        
+        currentPage = index; // keeps 
         // show new pair
         pages.GetChild(index).gameObject.SetActive(true);
         pages.GetChild(index + 1).gameObject.SetActive(true);
