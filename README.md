@@ -6,6 +6,14 @@ This is a gameObject based 2D two page book system using button navigation. The 
 ![animation](Assets/sprites/gifs/nextAndPrevious.gif)
 ### code
 book navigation handler [code](Assets/scripts/pageHandler.cs)
-###
+### Table of Contents
+![animation](Assets/sprites/gifs/TOC.gif)
+### code
+Table of Contents script [code](Assets/scripts/TableOfContents.cs)
+### Book Storage
+![animation](Assets/sprites/gifs/bookStorage.gif)
+### code
+Book storage script [code](Assets/scripts/bookGrabber.cs)
+
 
 
