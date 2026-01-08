@@ -23,7 +23,23 @@ public class pageHandler : MonoBehaviour
         leftPageNum.text = (currentPage+1).ToString();   
         rightPageNum.text = (currentPage+2).ToString();
     }
+    public void goToPage()
+    {
+        
+        hidePage();
+        // show new pair
+        pages.GetChild(currentPage).gameObject.SetActive(true);
+        pages.GetChild(currentPage + 1).gameObject.SetActive(true);
+        leftPageNum.text = (currentPage + 1).ToString();
+        rightPageNum.text = (currentPage + 2).ToString();
 
+    }
+    public void hidePage()
+    {
+        // hide previous pair
+        pages.GetChild(currentPage).gameObject.SetActive(false);
+        pages.GetChild(currentPage + 1).gameObject.SetActive(false);
+    }
     public void nextPage()
     {
 
@@ -33,43 +49,24 @@ public class pageHandler : MonoBehaviour
         {
             return;
         }
-            
-
-        // hide previous pair
-        pages.GetChild(currentPage).gameObject.SetActive(false);
-        pages.GetChild(currentPage + 1).gameObject.SetActive(false);
-
+        hidePage();
         currentPage+=2;
-
-        // show new pair
-        pages.GetChild(currentPage).gameObject.SetActive(true);
-        pages.GetChild(currentPage +1 ).gameObject.SetActive(true);
-        leftPageNum.text = (currentPage + 1).ToString();
-        rightPageNum.text = (currentPage + 2).ToString();
-
-
+        goToPage();
     }
 
     public void previousPage()
     {
-        
 
         if (currentPage == 0)
         {
             return;
         }
 
-
-        // hide previous pair
-        pages.GetChild(currentPage).gameObject.SetActive(false);
-        pages.GetChild(currentPage + 1).gameObject.SetActive(false);
+        hidePage();
 
         currentPage -= 2;
 
-        // show new pair
-        pages.GetChild(currentPage).gameObject.SetActive(true);
-        pages.GetChild(currentPage + 1).gameObject.SetActive(true);
-        leftPageNum.text = (currentPage + 1).ToString();
-        rightPageNum.text = (currentPage + 2).ToString();
+        goToPage();
     }
+    
 }

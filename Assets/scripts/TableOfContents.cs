@@ -13,7 +13,12 @@ public class TableOfContents : MonoBehaviour
     public void onClick()
     {
         pageHandler = GetComponentInParent<pageHandler>();
+
         int index = SpecificPage.GetSiblingIndex();
+        if (index % 2 == 1)
+        {
+            index--;
+        }
         pageHandler.pages.GetChild(0).gameObject.SetActive(false);
         pageHandler.pages.GetChild(1).gameObject.SetActive(false);
         pageHandler.pages.GetChild(index).gameObject.SetActive(true);
