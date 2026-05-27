@@ -8,6 +8,7 @@ public class RevisedPageHandler : MonoBehaviour
     // - right with right sr
     // - 2 button children
     public Sprite[] pages; // list of pages
+    public GameObject TOC;
     public GameObject LeftPageHandlerObj; // left page
     public GameObject RightPageHandlerObj;  // right page
     SpriteRenderer LeftPageSR; // left sr
@@ -30,6 +31,14 @@ public class RevisedPageHandler : MonoBehaviour
     }
     public void goToPage(int index)
     {
+        if (index != 0)
+        {
+            TOC.SetActive(false);
+        }
+        else
+        {
+            TOC.SetActive(true);
+        }
         currentPage = index; // Very Important, keeps the currentPage consistent 
         // show new pair
         LeftPageSR.sprite = pages[index];

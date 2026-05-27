@@ -3,22 +3,30 @@ using UnityEngine;
 public class RevisedTOC : MonoBehaviour
 {
     [Header("The Specific page to link to")]
-    public int PageIndex;
+    public Sprite PageSprite;
 
     [Header("PageHandler")]
-    pageHandler pageHandler;
+    RevisedPageHandler pageHandler;
+
+    int index;
 
 
     public void onClick() // table of contents, onClick is a button that takes to the page 
     {
-        pageHandler = GetComponentInParent<pageHandler>();
-
-        if (PageIndex % 2 == 1)
+        pageHandler = GetComponentInParent<RevisedPageHandler>();
+        for (int i = 0; i < pageHandler.pages.Length; i++)
         {
-            PageIndex--;
+            if (PageSprite == pageHandler.pages[i])
+            {
+                index = i;
+                break;
+            }
         }
-        pageHandler.hidePage();
-        pageHandler.goToPage(PageIndex);
+        if (index % 2 == 1)
+        {
+            index--;
+        }
+        pageHandler.goToPage(index);
 
     }
 }
