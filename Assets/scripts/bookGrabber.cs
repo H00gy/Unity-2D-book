@@ -29,7 +29,7 @@ public class bookGrabber : MonoBehaviour
         if (other.CompareTag("closedBook"))
         {
             other.gameObject.SetActive(false);
-            openBook.transform.position = other.transform.position + new Vector3(0f, 1f);
+            //openBook.transform.position = other.transform.position + new Vector3(0f, 1f);
             openBook.SetActive(true);
         
         }

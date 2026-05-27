@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: 6078632f35ea9874f948779beda4225b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3380622573623734030
+    second: GeneralPage_0
+  - first:
+      213: -4695602713970819460
+    second: GeneralPage_1
+  - first:
+      213: 8040874091780470887
+    second: GeneralPage_2
+  - first:
+      213: 2244430482677997355
+    second: GeneralPage_3
+  - first:
+      213: 4026221105357982045
+    second: GeneralPage_4
+  - first:
+      213: 5686349778941801016
+    second: GeneralPage_5
+  - first:
+      213: 6005609565441820336
+    second: GeneralPage_6
+  - first:
+      213: 7244992047823340183
+    second: GeneralPage_7
+  - first:
+      213: -7417441121669230972
+    second: GeneralPage_8
+  - first:
+      213: -6405624342273224190
+    second: GeneralPage_9
+  - first:
+      213: 5500791654654921992
+    second: GeneralPage_10
+  - first:
+      213: -7276607747678737896
+    second: GeneralPage_11
+  - first:
+      213: 8316418303958548445
+    second: GeneralPage_12
+  - first:
+      213: -5898934000973227752
+    second: GeneralPage_13
+  - first:
+      213: 4964718056335400901
+    second: GeneralPage_14
+  - first:
+      213: -3793804382718065229
+    second: GeneralPage_15
+  - first:
+      213: 2944652497042101669
+    second: GeneralPage_16
+  - first:
+      213: 247409512678917905
+    second: GeneralPage_17
+  - first:
+      213: -6416341201398702141
+    second: GeneralPage_18
+  - first:
+      213: -7648631664826641434
+    second: GeneralPage_19
+  - first:
+      213: 2294694771771420482
+    second: GeneralPage_20
+  - first:
+      213: 9127300620149641166
+    second: GeneralPage_21
+  - first:
+      213: -3646922260646936969
+    second: GeneralPage_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FabianPage_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 115
+        width: 69
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf28e45fd8ece4d70800000000000000
+      internalID: 9029381412025697020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 100
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e63838e3e83389b0800000000000000
+      internalID: -5079153403239057694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b6bf342052e8960800000000000000
+      internalID: 7606057512336059260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3148662df2c9df0800000000000000
+      internalID: -172210105037351956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca0be3692f6cda30800000000000000
+      internalID: 4241387172636854984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f44c4efa82d03e0800000000000000
+      internalID: -2085966316480213101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a4e4ad8993023c0800000000000000
+      internalID: -4386442708398486940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846530f384d0ff990800000000000000
+      internalID: -7350141462899370424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 28
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925690b0479429f40800000000000000
+      internalID: 5733726038346261801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 93
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b78ae920bb9f0e50800000000000000
+      internalID: 6777807145135671217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 81
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4e0a1c7758db170800000000000000
+      internalID: 8195853646280320203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16dcd882a5bc63230800000000000000
+      internalID: 3618302938726649185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f62273c3af0f440800000000000000
+      internalID: 4967745525519642504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_13
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3e2d1985eb298a0800000000000000
+      internalID: -6299763641124985872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FabianPage_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b1441e5d755ff80800000000000000
+      internalID: -8073450180872758511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FabianPage_0: 9029381412025697020
+      FabianPage_1: -5079153403239057694
+      FabianPage_10: 8195853646280320203
+      FabianPage_11: 3618302938726649185
+      FabianPage_12: 4967745525519642504
+      FabianPage_13: -6299763641124985872
+      FabianPage_14: -8073450180872758511
+      FabianPage_2: 7606057512336059260
+      FabianPage_3: -172210105037351956
+      FabianPage_4: 4241387172636854984
+      FabianPage_5: -2085966316480213101
+      FabianPage_6: -4386442708398486940
+      FabianPage_7: -7350141462899370424
+      FabianPage_8: 5733726038346261801
+      FabianPage_9: 6777807145135671217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
