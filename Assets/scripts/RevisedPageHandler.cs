@@ -18,6 +18,7 @@ public class RevisedPageHandler : MonoBehaviour
     {
         LeftPageSR = LeftPageHandlerObj.GetComponent<SpriteRenderer>(); // gets sr for both
         RightPageSR = RightPageHandlerObj.GetComponent<SpriteRenderer>();
+        OpenBook();
 
 
 
