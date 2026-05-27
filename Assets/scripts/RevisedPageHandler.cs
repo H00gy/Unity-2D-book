@@ -4,6 +4,7 @@ public class RevisedPageHandler : MonoBehaviour
 {
     // structure
     // root base with base sr
+    // TOC object
     // - left with left sr
     // - right with right sr
     // - 2 button children
