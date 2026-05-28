@@ -42,14 +42,25 @@ public class RevisedPageHandler : MonoBehaviour
         }
         currentPage = index; // Very Important, keeps the currentPage consistent 
         // show new pair
-        LeftPageSR.sprite = pages[index];
-        RightPageSR.sprite = pages[index + 1];
+        
+        if (index + 1 >= pages.Length)
+        {
+            LeftPageSR.sprite = pages[index];
+            RightPageSR.sprite = null; 
+        }
+        else
+        {
+            LeftPageSR.sprite = pages[index];
+            RightPageSR.sprite = pages[index + 1];
+        }
+        
+
 
     }
     public void nextPage() // next page
     {
 
-        int maxStart = pages.Length - 2; // last valid pair start
+        int maxStart = pages.Length-2; // last valid pair start
 
         if (currentPage >= maxStart)
         {
